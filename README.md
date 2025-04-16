@@ -13,7 +13,6 @@ Our human body model is based on a frozen [SMPLer-X](https://github.com/caizhong
 
 
 ## Usage
-Our method can mainly be divided into **identity conditioned LDM training**, **context enhanced sampling**, and **recognition model training**. Specifically, **identity conditioned LDM training** and **context enhanced sampling** are implemented based on the [IDiff-Face repository](https://github.com/fdbtrs/IDiff-Face). We make some modifications to its dataset and sampling codes. The implementation of **recognition model training** is fundamentally based on [TFace repository](https://github.com/Tencent/TFace), with only minor modifications applied to the 'transform' method to incorporate some additional cropping enhancements.
 
 ### 1. Setup the Environment
 
